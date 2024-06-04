@@ -1,0 +1,1702 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Sheet1\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.129.905.0 (24.05)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "sheet_1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sheet 1": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Sheet1": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "sheet_1.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "sheet_1.date.variation.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "sheet_1.date.variation.date_hierarchy.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment day": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period day": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "sheet_1.date.variation.date_hierarchy.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date mth": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "moment month": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period month": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "sheet_1.date.variation.date_hierarchy.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date qtr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "moment quarter": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period quarter": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "sheet_1.date.variation.date_hierarchy.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date yr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "moment year": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "period year": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "sheet_1.dropdown": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "ConceptualProperty": "Dropdown"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dropdown": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "sheet_1.mulitiline": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "ConceptualProperty": "Muliti-Line"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "muliti-line": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "locality": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "placement": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "scene": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "venue": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "address": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "place": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "position": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "setting": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "site": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "spot": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "Location": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sheet_1.number": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "ConceptualProperty": "Numbers "
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "number": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Numbers": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "fact": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "figure": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "record": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "sheet_1.password": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "ConceptualProperty": "Password"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "password": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "watchword": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "keyword": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "PIN": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "sheet_1.single_line": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "ConceptualProperty": "Single line"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "single line": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "title": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "creature": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "single streak": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "single stroke": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "single stripe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "single contour": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "single mark": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "being": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "Person": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Name": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "sheet_1.time": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Sheet1",
+                    "ConceptualProperty": "Time"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "time": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "duration": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "interval": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "moment": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "timetable": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "sheet_1_date_has_variation_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.date.variation.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1.date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1.date": {
+                    "Target": {
+                      "Entity": "sheet_1.date"
+                    }
+                  },
+                  "sheet_1.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "sheet_1.date.variation.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_date_variation_date_hierarchy_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.date.variation.date_hierarchy.day"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1.date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "sheet_1.date.variation.date_hierarchy"
+                    }
+                  },
+                  "sheet_1.date.variation.date_hierarchy.day": {
+                    "Target": {
+                      "Entity": "sheet_1.date.variation.date_hierarchy.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_date_variation_date_hierarchy_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.date.variation.date_hierarchy.month"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1.date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "sheet_1.date.variation.date_hierarchy"
+                    }
+                  },
+                  "sheet_1.date.variation.date_hierarchy.month": {
+                    "Target": {
+                      "Entity": "sheet_1.date.variation.date_hierarchy.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_date_variation_date_hierarchy_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.date.variation.date_hierarchy.quarter"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1.date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "sheet_1.date.variation.date_hierarchy"
+                    }
+                  },
+                  "sheet_1.date.variation.date_hierarchy.quarter": {
+                    "Target": {
+                      "Entity": "sheet_1.date.variation.date_hierarchy.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_date_variation_date_hierarchy_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.date.variation.date_hierarchy.year"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1.date.variation.date_hierarchy"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1.date.variation.date_hierarchy": {
+                    "Target": {
+                      "Entity": "sheet_1.date.variation.date_hierarchy"
+                    }
+                  },
+                  "sheet_1.date.variation.date_hierarchy.year": {
+                    "Target": {
+                      "Entity": "sheet_1.date.variation.date_hierarchy.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.date"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1": {
+                    "Target": {
+                      "Entity": "sheet_1"
+                    }
+                  },
+                  "sheet_1.date": {
+                    "Target": {
+                      "Entity": "sheet_1.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_has_dropdown": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.dropdown"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1": {
+                    "Target": {
+                      "Entity": "sheet_1"
+                    }
+                  },
+                  "sheet_1.dropdown": {
+                    "Target": {
+                      "Entity": "sheet_1.dropdown"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_has_mulitiline": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.mulitiline"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1": {
+                    "Target": {
+                      "Entity": "sheet_1"
+                    }
+                  },
+                  "sheet_1.mulitiline": {
+                    "Target": {
+                      "Entity": "sheet_1.mulitiline"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_has_password": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.password"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1": {
+                    "Target": {
+                      "Entity": "sheet_1"
+                    }
+                  },
+                  "sheet_1.password": {
+                    "Target": {
+                      "Entity": "sheet_1.password"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_has_time": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.time"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1": {
+                    "Target": {
+                      "Entity": "sheet_1"
+                    }
+                  },
+                  "sheet_1.time": {
+                    "Target": {
+                      "Entity": "sheet_1.time"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_in_mulitiline": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "sheet_1.mulitiline"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1": {
+                    "Target": {
+                      "Entity": "sheet_1"
+                    }
+                  },
+                  "sheet_1.mulitiline": {
+                    "Target": {
+                      "Entity": "sheet_1.mulitiline"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "sheet_1.mulitiline"
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_is_named_number": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "sheet_1.number"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.number"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1": {
+                    "Target": {
+                      "Entity": "sheet_1"
+                    }
+                  },
+                  "sheet_1.number": {
+                    "Target": {
+                      "Entity": "sheet_1.number"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sheet_1_is_named_single_line": {
+                "Binding": {
+                  "ConceptualEntity": "Sheet1"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "sheet_1.single_line"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sheet_1.single_line"
+                      },
+                      "Subject": {
+                        "Role": "sheet_1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sheet_1": {
+                    "Target": {
+                      "Entity": "sheet_1"
+                    }
+                  },
+                  "sheet_1.single_line": {
+                    "Target": {
+                      "Entity": "sheet_1.single_line"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "311c5f09-ed32-444c-abd6-852e000420f0",
+        "fromColumn": "Date",
+        "fromTable": "Sheet1",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_1c23dd80-9e02-48be-b53d-2e1a26695a07"
+      }
+    ],
+    "sourceQueryCulture": "en-IN",
+    "tables": [
+      {
+        "name": "DateTableTemplate_af07b1aa-fd33-45f3-9f50-aa17589ab317",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "64a8ab06-a3ca-4493-b7d1-9929e464b2aa",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "a812cded-9b6a-4648-8696-e7095883ce7a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "61297351-b903-46f8-9d6c-a307ebb6bfdb",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "ac2cc1d8-567b-490c-8782-442a7149c77c",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "897ac66b-0d05-4c0f-b915-62ebbc8a0fe5",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "a1dc2fba-271c-4617-9ede-5624efe11773",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "60fcb03f-f221-400e-9f46-2b01cf435442",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "88cf1ee2-0dfc-48db-ba8b-432a8063c616",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "c26d22e0-11aa-41b2-8eb3-00127bdb27b7",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "76d21661-7a60-4206-93d6-a529cf0cf513",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "8b828f60-5d11-4f4e-b389-20bf0b299abd",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "99fec0af-e807-4850-90cb-0f909bbd1691"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "20458cf4-50d9-41eb-8e3f-13fed7b041e5",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_af07b1aa-fd33-45f3-9f50-aa17589ab317-2ef229f6-ad62-4444-b956-a95f45199fc1",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sheet1",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Single line",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d6ac7d01-88ad-4b32-bc0b-e3a29de36f06",
+            "sourceColumn": "Single line",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Numbers ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b1379fde-50ef-4997-8e9a-8771f2d81737",
+            "sourceColumn": "Numbers ",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Muliti-Line",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3d66b1ce-9d20-47a8-8961-0920d0023bf3",
+            "sourceColumn": "Muliti-Line",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "121e5cf3-0111-4e4c-8d6e-d4c1f8913a2f",
+            "sourceColumn": "Date",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_1c23dd80-9e02-48be-b53d-2e1a26695a07"
+                },
+                "isDefault": true,
+                "relationship": "311c5f09-ed32-444c-abd6-852e000420f0"
+              }
+            ]
+          },
+          {
+            "name": "Time",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cb011f22-48c0-4d4d-8f44-a1465c1b089c",
+            "sourceColumn": "Time",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Password",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b731bc8b-d60d-4e2d-a1ed-19032a849ba5",
+            "sourceColumn": "Password",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Dropdown",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8bd05171-c29a-4cd9-ba7f-4dd0af0c4919",
+            "sourceColumn": "Dropdown",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "76a8c4c3-2bf3-488f-9f48-afdc4fb12b47",
+        "partitions": [
+          {
+            "name": "Sheet1-65f269d8-0864-4dc9-833d-951e7603df8d",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\Jaishree.Ravikumar\\Downloads\\Athmani\\readXcel\\Athmanirbar_MyApp_InputFiles.xlsx\"), null, true),",
+                "    Sheet1_Sheet = Source{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Single line\", type text}, {\"Numbers \", Int64.Type}, {\"Muliti-Line\", type text}, {\"Date\", type date}, {\"Time\", Int64.Type}, {\"Password\", type text}, {\"Dropdown\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_1c23dd80-9e02-48be-b53d-2e1a26695a07",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "c0417f58-3b06-4709-b578-5dcd9ab878d2",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "36aee7fe-e633-41fb-9b72-a0a66832cfae",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "9164727e-b35e-4dbb-b3ad-d399d524ea61",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "fc34f407-2402-4ca5-9f99-1997603cca3a",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "579a6e51-9e0d-4cee-b0ad-74320c7c953f",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "6aeaf464-e8f4-4f3a-9a15-88a2aa819842",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "312b3816-3829-44c7-ae0f-952d9392bf84",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "6e7aa124-7887-4c7e-82c5-7f42991a77e0",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "eaa88650-47c5-470c-8c75-cc446000e6c3",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "6ca3d95a-4221-4a35-bd81-4b0fd5ee039f",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "ee5f8cf2-66b2-45fb-b3c4-455b0924134e",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "34ae1d46-363b-4ba7-a0c2-69c55271cdde"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "54995bcf-edfe-472a-8e77-1a8441f53bc8",
+        "partitions": [
+          {
+            "name": "LocalDateTable_1c23dd80-9e02-48be-b53d-2e1a26695a07-3ff5a2e4-997f-4e42-934c-2ed3f62f8087",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Sheet1'[Date])), 1, 1), Date(Year(MAX('Sheet1'[Date])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
